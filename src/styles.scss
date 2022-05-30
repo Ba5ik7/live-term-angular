@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
+@import url('http://fonts.cdnfonts.com/css/cascadia-code');
+                
 /* Document
    ========================================================================== */
 
@@ -15,14 +16,15 @@
 }
 
 /* Sections
-   ========================================================================== */
+========================================================================== */
 
 /**
- * Remove the margin in all browsers.
- */
+* Remove the margin in all browsers.
+*/
 
 body {
   margin: 0;
+  font-family: 'Cascadia Code', sans-serif;
 }
 
 /**
@@ -167,6 +169,10 @@ textarea {
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
+}
+
+pre {
+  margin: 0;
 }
 
 /**
