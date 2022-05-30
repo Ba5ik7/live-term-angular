@@ -11,6 +11,7 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule)
   },
+  { path: 'terminal', loadChildren: () => import('./pages/terminal/terminal.module').then(m => m.TerminalModule) },
   { path: '**', redirectTo: '404' }
 ];
 
