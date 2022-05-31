@@ -169,6 +169,7 @@
 
 @keyframes turn-on{
   0%{
+    // background-color: #000;
     transform:scale(1,0.8) translate3d(0,0,0);
     -webkit-filter:brightness(30);
     filter:brightness(30);
@@ -182,16 +183,12 @@
     transform:scale(1,0.8) translate3d(0,-100%,0);
     opacity:1;
   } 
-  
   9%{
     transform:scale(1.3,0.6) translate3d(0,100%,0);
     -webkit-filter:brightness(30);
     filter:brightness(30);
     opacity:0;
   }
-  
-  
-  
   11%{
     transform:scale(1,1) translate3d(0,0,0);
     -webkit-filter:contrast(0) brightness(0) ;
@@ -200,6 +197,7 @@
   }
   
   100%{
+    background-color: #653B0A;
     transform:scale(1,1) translate3d(0,0,0);
     -webkit-filter:contrast(1) brightness(1.2) saturate(1.3);
     filter:contrast(1) brightness(1.2) saturate(1.3);
@@ -207,7 +205,7 @@
   }
 }
 
-.termial {
+main {
   width:100%;
   height:100%;
   animation: turn-on 4s linear;
